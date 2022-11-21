@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+*{
+  font-family: 'Lato', sans-serif;
+}
+.rbc-btn-group > button:not(:first-child):not(:last-child) {
+    border-radius: 0;
+    float: left;
+}
+
+.rbc-btn-group button{
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 0.4rem 0.5rem 
+}
+
+.rbc-btn-group>button:last-child:not(:first-child) {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border: none;
+    font-size:1.3rem;
+    color: #8b163f;
+  
+}
+.rbc-btn-group button:hover {
+    background-color: #fef6db;
+}
+.rbc-btn-group button:active {
+    background-color: #fef6db;
+}
+
+.rbc-btn-group button:active:hover {
+    background-color: #fef6db;
+}
+
+.rbc-btn-group button:focus {
+ background-color: #fef6db;
+ border:none;
+ outline: -webkit-focus-ring-color auto 0px;
+}
+
+
+.rbc-btn-group>button:last-child:not(:first-child):after {
+    content: "\00BB";
+    font-size:1.3em;
+    padding:0.3rem
+}
+
+.rbc-btn-group > button:first-child:not(:last-child) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border: 0px;
+    border-top: 0px solid #ccc;
+    border-bottom: 0px solid #ccc;
+    background-color: #8b163f;;
+    font-size:1rem;
+    color: #fef6db;
+    margin:0rem 1rem;
+}
+
+.rbc-btn-group > button:not(:first-child):not(:last-child) {
+    border-radius: 0;
+    float: left;
+      border: none;
+    font-size:1.3rem;
+    color: #8b163f
+}
+.rbc-btn-group > button:not(:first-child):not(:last-child):before {
+    content: "\00ab";
+    font-size:1.3em;
+    padding:0.3rem
+}
+.rbc-toolbar-label{
+  display:block;
+  font-size:2rem;
+  width: 100%;
+  margin:1rem
+}
+.rbc-btn-group:last-of-type{
+  display: none
+}
+.rbc-month-view {
+    display: inline;
+}
+.rbc-month-row {
+    height: 8rem;
+}

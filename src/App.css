@@ -1,0 +1,12 @@
+.master {
+  text-align: center;
+}
+.App-header{
+  margin-top: 18%;
+  /* margin-top: 350px; */
+}
+.title{
+  font-family:'Guttman Yad-Brush','Calibri','Guttman Yad', 'Bell MT', 'Courier New', Courier, monospace;
+  font-size: 100px;
+  color: lightslategrey;
+}
