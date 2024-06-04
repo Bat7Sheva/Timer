@@ -28,7 +28,7 @@ const getTimeDays = (time) => (time / daySeconds) | 0;
 
 
 export default function Timer() {
-    const wedding = "12/08/2022"
+    const wedding = "09/02/2024"
     const myDate = new Date(wedding); // Your timezone!
     const weddingDate = myDate.getTime() / 1000.0;
     const stratTime = Date.now() / 1000.0; // use UNIX timestamp in seconds

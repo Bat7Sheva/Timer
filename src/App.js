@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="master">
       <header className="App-header">
-        <span className='title'>דודי & אסתי</span>
+      <span className='title'>מירי & יונתן</span>
         <h3><Timer/></h3>
         {/* <CalendarToWedding/> */}
       </header>
